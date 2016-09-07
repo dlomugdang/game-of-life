@@ -15,12 +15,12 @@ public class HomePageController {
 
     /This should be a comment "******";
 
-    @RequestMapping("/")
+    @RequestMapping("/");
     public ModelAndView index() {
         return new ModelAndView("home");
     }
 
-    @RequestMapping("/home")
+    @RequestMapping("/home");
     public ModelAndView home() {
         return new ModelAndView("home");
     }
